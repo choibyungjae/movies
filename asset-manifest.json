@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/movies/static/js/main.fe287fc2.js",
-    "index.html": "/movies/index.html",
-    "main.fe287fc2.js.map": "/movies/static/js/main.fe287fc2.js.map"
+    "main.js": "/react-for-beginners/static/js/main.fe287fc2.js",
+    "index.html": "/react-for-beginners/index.html",
+    "main.fe287fc2.js.map": "/react-for-beginners/static/js/main.fe287fc2.js.map"
   },
   "entrypoints": [
     "static/js/main.fe287fc2.js"
