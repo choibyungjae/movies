@@ -10,7 +10,6 @@ function Detail() {
     const json = await (
       await fetch(`https://yts.mx/api/v2/movie_details.json?movie_id=${id}`)
     ).json();
-    console.log(json);
     setMovies(json);
     setLoading(false);
   };
@@ -24,6 +23,7 @@ function Detail() {
       ) : (
         <div>
           <h2>{movies.data.movie.title}</h2>
+          <img src={movies.data.movie.large_cover_image}></img>
           <p>{movies.data.movie.description_full}</p>
           <ul>
             {movies.data.movie.genres &&
